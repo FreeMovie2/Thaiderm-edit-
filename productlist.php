@@ -43,7 +43,8 @@
                             <img class="card-img-top" src="assets/images/bg.jpg" alt="Coding">
                         </a>
                         <div class="card-body text-center">
-                        <h5 class="card-title">ชื่อสินค้า</h5>
+                        <h5 class="card-title">รหัสสินค้า</h5>
+                        <h5 class="card-text">ชื่อสินค้า</h5>
                         <p class="card-text">ราคา xx บาท</p>
                     </div>
                         <div class="p-3">
