@@ -14,11 +14,14 @@
                 <li class="nav-item <?php echo $file_name == 'index' ? 'active': '' ?>">
                     <a class="nav-link" href="index.php">หน้าแรก <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item <?php echo $file_name == 'about' ? 'active': '' ?>">
-                    <a class="nav-link" href="about.php">เกี่ยวกับเรา</a>
+                <li class="nav-item <?php echo $file_name == 'product' ? 'active': '' ?>">
+                    <a class="nav-link" href="product.php">สินค้า</a>
                 </li>
                 <li class="nav-item <?php echo $file_name == 'blog' || $file_name == 'blog-detail' ? 'active': '' ?>">
                     <a class="nav-link" href="blog.php">บทความ</a>
+                </li>
+                <li class="nav-item <?php echo $file_name == 'blog' || $file_name == 'blog-detail' ? 'active': '' ?>">
+                    <a class="nav-link" href="blog.php">แกลลอรี่</a>
                 </li>
                 <li class="nav-item <?php echo $file_name == 'contact' ? 'active': '' ?>">
                     <a class="nav-link" href="contact.php">ติดต่อเรา</a>
