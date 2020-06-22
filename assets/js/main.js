@@ -32,3 +32,9 @@ $('.to-top').click(function (){
 })
 
 $('.jarallax').jarallax();
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel( {
+        loop: false,
+    });
+});
