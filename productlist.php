@@ -27,7 +27,7 @@
     <?php include_once('includes/navbar.php') ?>
 
 <!-- Section Page-title -->
-    <header class="jarallax" data-speed="0.5" style="background-image: url(assets/images/03.JPG);">
+    <header class="jarallax" data-speed="0.5" style="background-image: url(assets/images/IMG_2784.JPG);">
         <div class="page-image">
             <h1 class="display-4 font-weight-bold">รายการสินค้า</h1>
             <p class="lead">ไทยเดิมหินอ่อน หินกาบ หินแกรนิต หินทราย หินจิ๊กซอ</p>
@@ -43,8 +43,8 @@
                             <img class="card-img-top" src="assets/images/bg.jpg" alt="Coding">
                         </a>
                         <div class="card-body text-center">
-                        <h5 class="card-title">รหัสสินค้า</h5>
-                        <h5 class="card-text">ชื่อสินค้า</h5>
+                        <h6 class="card-title">รหัสสินค้า</h6>
+                        <h5 class="card-title">ชื่อสินค้า</h5>
                         <p class="card-text">ราคา xx บาท</p>
                     </div>
                         <div class="p-3">

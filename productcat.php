@@ -27,7 +27,7 @@
     <?php include_once('includes/navbar.php') ?>
 
 <!-- Section Page-title -->
-    <header class="jarallax" data-speed="0.5" style="background-image: url(assets/images/03.JPG);">
+    <header class="jarallax" data-speed="0.5" style="background-image: url(assets/images/IMG_2772.JPG);">
         <div class="page-image">
             <h1 class="display-4 font-weight-bold">ประเภทสินค้า</h1>
             <p class="lead">ไทยเดิมหินอ่อน หินกาบ หินแกรนิต หินทราย หินจิ๊กซอ</p>

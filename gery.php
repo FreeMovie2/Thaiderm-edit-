@@ -27,19 +27,19 @@
     <?php include_once('includes/navbar.php') ?>
 
 <!-- Section Page-title -->
-    <header class="jarallax" data-speed="0.5" style="background-image: url(assets/images/IMG_2768.JPG);">
+    <header class="jarallax" data-speed="0.5" style="background-image: url(assets/images/01.JPG);">
         <div class="page-image">
-            <h1 class="display-4 font-weight-bold">หมวดหมู่สินค้า</h1>
+            <h1 class="display-4 font-weight-bold">แกลลอรี่</h1>
             <p class="lead">ไทยเดิมหินอ่อน หินกาบ หินแกรนิต หินทราย หินจิ๊กซอ</p>
         </div>
     </header>
     <section class="jumbotron-fluid">
         <div class="container">
-            <h1 class="border-short-bottom text-center">หมวดหมู่สินค้า</h1>
+            <h1 class="border-short-bottom text-center">แกลลอรี่</h1>
             <div class="row">
                 <section class="col-12 col-sm-6 col-md-4 p-3">
                     <div class="card h-100">
-                        <a href="productcat.php?id=" class="warpper-card-img">
+                        <a href="blogga.php?id=" class="warpper-card-img">
                             <img class="card-img-top" src="assets/images/bg.jpg" alt="Coding">
                         </a>
                         <!-- <div class="card-body">
@@ -47,49 +47,7 @@
                         <p class="card-text"></p>
                     </div> -->
                         <div class="p-3">
-                            <a href="productcat.php?id=" class="btn btn-danger btn-block">หินธรรมชาติ</a>
-                        </div>
-                    </div>
-                </section>
-                <section class="col-12 col-sm-6 col-md-4 p-3">
-                    <div class="card h-100">
-                        <a href="productcat.php?id=" class="warpper-card-img">
-                            <img class="card-img-top" src="assets/images/bg.jpg" alt="Coding">
-                        </a>
-                        <!-- <div class="card-body">
-                        <h5 class="card-title"></h5>
-                        <p class="card-text"></p>
-                    </div> -->
-                        <div class="p-3">
-                            <a href="productcat.php?id=" class="btn btn-danger btn-block">หินเทียม</a>
-                        </div>
-                    </div>
-                </section>
-                <section class="col-12 col-sm-6 col-md-4 p-3">
-                    <div class="card h-100">
-                        <a href="productcat.php?id=" class="warpper-card-img">
-                            <img class="card-img-top" src="assets/images/bg.jpg" alt="Coding">
-                        </a>
-                        <!-- <div class="card-body">
-                        <h5 class="card-title"></h5>
-                        <p class="card-text"></p>
-                    </div> -->
-                        <div class="p-3">
-                            <a href="productcat.php?id=" class="btn btn-danger btn-block">หินตกแต่ง</a>
-                        </div>
-                    </div>
-                </section>
-                <section class="col-12 col-sm-6 col-md-4 p-3">
-                    <div class="card h-100">
-                        <a href="productcat.php?id=" class="warpper-card-img">
-                            <img class="card-img-top" src="assets/images/bg.jpg" alt="Coding">
-                        </a>
-                        <!-- <div class="card-body">
-                        <h5 class="card-title"></h5>
-                        <p class="card-text"></p>
-                    </div> -->
-                        <div class="p-3">
-                            <a href="productcat.php?id=" class="btn btn-danger btn-block">หินธรรมชาติ</a>
+                            <a href="blogga.php?id=" class="btn btn-danger btn-block">หินธรรมชาติ</a>
                         </div>
                     </div>
                 </section>
