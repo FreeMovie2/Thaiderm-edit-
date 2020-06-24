@@ -91,7 +91,7 @@ $result_RAND = $conn->query($sql_RAND) or die($conn->error);
                     <?php while($row_RAND = $result_RAND->fetch_assoc()){  ?>
                     <section class="col-12 p-2">
                         <div class="card h-100">
-                            <a href="blog-detail.php?id=<?php echo $row_RAND['group_id'] ?>" class="warpper-card-img">
+                            <a href="productdete.php?id=<?php echo $row_RAND['group_id'] ?>" class="warpper-card-img">
                                 <img class="card-img-top" src="<?php echo $base_path_blog.$row_RAND['group_img'] ?>" alt="Coding">
                             </a>
                             <div class="card-body">
@@ -99,7 +99,7 @@ $result_RAND = $conn->query($sql_RAND) or die($conn->error);
                                
                             </div>
                             <div class="p-3">
-                                <a href="blog-detail.php?id=<?php echo $row_RAND['group_id'] ?>" class="btn btn-primary btn-block">อ่านเพิ่มเติม</a>
+                                <a href="productdete.php?id=<?php echo $row_RAND['group_id'] ?>" class="btn btn-primary btn-block">อ่านเพิ่มเติม</a>
                             </div>
                         </div>
                     </section>
@@ -116,16 +116,26 @@ $result_RAND = $conn->query($sql_RAND) or die($conn->error);
             <?php while($rowgroup = $resultgroup->fetch_assoc()) {  ?>
                 <section class="col-12 col-sm-6 col-md-4 p-2">
                     <div class="card h-100">
-                        <a href="blog-detail.php?id=" class="warpper-card-img">
+                        <a href="productcat.php?id=" class="warpper-card-img">
                             <img class="card-img-top" src="<?php echo $base_path_blog.$rowgroup['group_img'] ?>" alt="Coding">
                         </a>
-    
                         <div class="p-3">
-                            <a href="blog-detail.php?id=" class="btn btn-danger btn-block"><?php echo $rowgroup ['group_name']; ?></a>
+                            <a href="productcat.php?id=" class="btn btn-danger btn-block"><?php echo $rowgroup ['group_name']; ?></a>
                         </div>
                     </div>
                 </section>
             <?php } ?>   
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col align-self-start">                        
+                    </div>
+                    <div class="p-3 col-md-2 align-self-center">
+                    <a href="product.php?id=" class="btn btn-danger btn-block">ดูทั้งหมด</a>
+                    </div>
+                    <div class="col align-self-end">                        
+                    </div>
+                </div>
             </div>
         </div>
         
@@ -181,7 +191,7 @@ $result_RAND = $conn->query($sql_RAND) or die($conn->error);
                     <div class="col align-self-start">                        
                     </div>
                     <div class="p-3 col-md-2 align-self-center">
-                    <a href="blog-detail.php?id=" class="btn btn-danger btn-block">ดูทั้งหมด</a>
+                    <a href="blog.php?id=" class="btn btn-danger btn-block">ดูทั้งหมด</a>
                     </div>
                     <div class="col align-self-end">                        
                     </div>
@@ -190,6 +200,34 @@ $result_RAND = $conn->query($sql_RAND) or die($conn->error);
         </div>
     </section>
 
+    <section class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="border-short-bottom text-center">แกลลอรี่</h1>
+            <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col align-self-start">                        
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 p-2 align-self-center">
+                    <section class="">
+                    <div class="card h-100 ">
+                        <a href="gery.php?id=" class="warpper-card-img">
+                            <img class="card-img-top" src="assets/images/IMG_2768.jpg" alt="Coding">
+                        </a>
+    
+                        <div class="p-3">
+                            <a href="gery.php?id=" class="btn btn-danger btn-block">ผลงานของเรา</a>
+                        </div>
+                    </div>
+                </section>
+                    </div>
+                    <div class="col align-self-end">                        
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
     <!-- Section Footer -->
     <?php include_once('includes/footer.php') ?>
 
